@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "outfit";
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3E5D8;
+}
+
+img{
+    max-width: 700px;
+    display: block;
+    margin: 0px auto 30px;
+    border-radius: 15px;
+}
+
+main{
+    border-radius: 25px;
+    width: 800px;
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px 50px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.preparationTittle{
+    color: purple;
+}
+
+.preparation{
+    background-color: rgb(245, 236, 245);
+    border-radius: 20px;
+    height: 204px;
+    padding: 1px 35px;
+    margin: 35px 0px;
+}
+
+h2{
+    color: brown;
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+li{
+    line-height: 2;
+    list-style-position: inside;
+}
+
+hr{
+    margin: 25px 0px;
+    background-color: #ddd;
+    height: 1px;
+    border: none;
+}
+
+ul li::marker{
+    color: brown;
+}
+
+ol li::marker{
+    color: brown;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+ul.nutrition{
+    margin-top: 10px;
+    list-style: none;
+}
+
+ul.nutrition li{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.nutrition li span{
+    color: brown;
+    font-weight: bold;
+}
