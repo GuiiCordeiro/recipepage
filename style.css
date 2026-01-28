@@ -124,11 +124,12 @@ ul.nutrition li span{
 
     img{
         display: block;
+        margin: -35px -35px 70px ;
         max-width: none;
-        width: calc(100% + 32px);;
+        width: calc(100% + 70px);;
         height: auto;
         border-radius: 0;
-        margin: -35px  -35px 70px;
+        
     }
     
     body{
