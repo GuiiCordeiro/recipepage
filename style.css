@@ -82,6 +82,11 @@ hr{
     border: none;
 }
 
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
 ul li::marker{
     color: brown;
 }
