@@ -3,6 +3,10 @@
     src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: "young";
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
 
 *{
     margin: 0;
@@ -27,18 +31,25 @@ main{
     background-color: white;
     margin: 40px auto;
     padding: 20px 50px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.315);
 }
 
 h1{
     margin-bottom: 30px;
+    font-family: 'young';
+    font-weight: 300;
 }
 
 p{
     line-height: 1.5;
+    font-family: 'outfit';
+    font-weight: 200;
 }
 
 .preparationTittle{
     color: purple;
+    font-family: 'outfit';
+    font-weight: 500;
 }
 
 .preparation{
@@ -53,11 +64,15 @@ h2{
     color: brown;
     font-size: 2rem;
     margin: 20px 0px;
+    font-family: 'young';
+    font-weight: 200;
 }
 
 li{
     line-height: 2;
     list-style-position: inside;
+    font-family: 'outfit';
+    
 }
 
 hr{
@@ -93,3 +108,36 @@ ul.nutrition li span{
     color: brown;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 16px;
+        border-radius: 0;
+    }
+
+    img{
+        display: block;
+        max-width: none;
+        width: calc(100% + 32px);;
+        height: auto;
+        border-radius: 0;
+        margin: -16px  -16px 24px;
+    }
+    
+    body{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 1.6rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+
+}
+
